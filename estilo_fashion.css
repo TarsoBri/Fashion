@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#principal{
+    width: 1024px;
+    margin: 30px auto;
+}
+
+.header-top{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+.logotipo{
+    margin: 10px 0 0 140px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 15px;
+}
+
+.header-top a{
+    text-decoration: none;
+    color: rgb(119, 124, 180);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    transition: color 0.6s linear;
+}
+.header-top a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.texto-principal{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.texto-principal h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(8, 7, 68);
+}
+
+.texto-principal p{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.gallery{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.gallery article{
+    width: 25%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    
+}
+
+.gallery-card-2, .gallery-card-3{
+    margin-left: 50px;
+}
+
+.gallery-title-1, .gallery-title-2, .gallery-title-3{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(8, 7, 68, 0.61);
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.gallery-text-1, .gallery-text-2, .gallery-text-3{
+    color: rgba(0, 0, 0, 0.527);
+}
+
+
+
+
+
+.about{
+    background-image:url(/ProjetoFashion/imagens/bg_detalhe.png);
+    height: 800px;
+    background-size: cover;
+    background-position: left;
+    color:white;
+}
+
+.about h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-weight: normal;
+}
+
+.about p{
+    margin-left: 100px;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+
+
+
+
+#contact{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(8, 7, 68);
+    font-size: 40px;
+    font-style: normal;
+}
+
+#contact a{
+    text-decoration: none;
+    color: rgb(77, 88, 255);
+}
+
+#contact a:hover{
+    color: rgb(0, 10, 97);
+}
+
+
+
+
+
+.maps{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+footer{
+    font-size: 20px;
+    background: rgb(0, 0, 37);
+    text-align: center;
+    padding: 20px;
+    color: rgb(90, 100, 134);
+    letter-spacing: 3px;
+}
